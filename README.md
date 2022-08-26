@@ -16,4 +16,5 @@ Antes é necessário criar um usuário, para isso use as instruções abaixo:
 ## Agora para rodar o código basta rodar:
 
 - python manage.py runserver
+- Faça o login se necessário
 - Clique no Dash e espere a geração dos gráficos.

@@ -23,7 +23,7 @@ fig = px.choropleth(regiao, geojson=counties, locations='cod_regiao', color='per
                            scope="south america",
                            #labels={'unemp':'unemployment rate'}
                           )
-#ALTERAR O PARAMETRO VISIBLE PARA FALSE CASO SÓ SE QUEIRA MOSTRAR A PLOTAGEM DO PARÁ
+#ALTERAR O PARAMETRO VISIBLE PARA FALSE CASO SÓ SE QUEIRA MOSTRAR A PLOTAGEM DO
 fig.update_geos(fitbounds="locations", visible=False)
 fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 fig.show()

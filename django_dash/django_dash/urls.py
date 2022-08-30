@@ -15,7 +15,7 @@ import django_dash.dash_app_code
 urlpatterns = [
     path('admin/', admin.site.urls),
 	
-	path('', include('django.contrib.auth.urls')),
+	 path('', include('django.contrib.auth.urls')),
 	url('^dash_plot$', TemplateView.as_view(template_name='dash_plot.html'), name="dash_plot"),
 	url('^django_plotly_dash/', include('django_plotly_dash.urls')),
 	path('', TemplateView.as_view(template_name='home.html'), name='home'),
